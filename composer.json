@@ -1,0 +1,28 @@
+{
+    "name": "mccahan/laravel-auto-rehash",
+    "description": "Automatically update Laravel password hashes as users authenticate",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^8.0|^9.0",
+        "illuminate/auth": "^8.0|^9.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "McCahan\\LaravelAutoRehash\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ryan McCahan",
+            "email": "ryan@mccahan.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "McCahan\\LaravelAutoRehash\\AutoRehashServiceProvider"
+            ]
+        }
+    }
+}
