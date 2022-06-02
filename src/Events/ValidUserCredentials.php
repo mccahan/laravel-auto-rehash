@@ -3,6 +3,7 @@
 namespace McCahan\LaravelAutoRehash\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Auth;
 
 class ValidUserCredentials {
